@@ -1,0 +1,140 @@
+/* Nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+    border: chartreuse;
+    width: 350px;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+}
+
+
+
+/* Home */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  a:link{
+    
+    text-decoration: none;
+  }
+
+
+/*About */
+.aboutBackground{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.aboutTable{
+   margin-left: auto;
+   margin-right: auto;
+   color:blanchedalmond;
+  
+}
+
+h4{
+    color:blanchedalmond;
+    font-size: large;
+
+}
+
+#aboutP{
+    color:blanchedalmond;
+    font-size: large;
+}
+
+#cardAbout {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    float:right;
+
+  }
+
+  div li{
+      color: blanchedalmond;
+      font-size: large;
+  }
+  
+
+/* Contact */
+
+  table{
+      font-size: large;
+      margin: 10% 10%;
+  }
+
+  td{
+      padding: 20px 20px 20px 20px;
+      border: 2px solid black;
+  }
+
+  #contactBackground{
+   background-image: url('images/contact.jpg');
+  }
+
+  .backgroundImage{
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-attachment:fixed;
+      
+  }
+
+
+/*gallery  */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    justify-items: center;
+    grid-gap : 5px;
+    grid-row-gap: 0px;
+}
+
+.grid-box img {
+    width: 250px;
+    height:250px;
+    padding: 20px 0;
+}
+
